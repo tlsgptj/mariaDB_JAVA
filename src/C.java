@@ -105,12 +105,6 @@ class C {
    }
    public static void main(String[] args) {
       C c = new C();
-
-      //c.insertD(50, "엄태정");
-      //c.insertD(60, "신혜서");
-      //c.insertD(70, "김혜서");
-
-      //c.selectD();
       c.selectD("혜");
       c.closeAll();
    }
